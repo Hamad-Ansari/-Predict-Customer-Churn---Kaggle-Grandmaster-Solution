@@ -39,7 +39,9 @@ We utilized a **Grandmaster strategy** to achieve a **0.9156 AUC** score, incorp
 
 ### 1. Data Augmentation (`is_generated` flag)
 We combined the **594k** rows from the competition dataset with the **7k** rows from the original dataset.
-*   Why? Synthetic data removes "tail" outliers. The original data restores these hard cases.
+*   Why? Synthetic data rem
+   <img width="1790" height="985" alt="3897c5b4-dc0a-44ef-a34b-c6190a501f54" src="https://github.com/user-attachments/assets/15a9ae6e-f26d-49d6-ad35-012beb3f5fb1" />
+oves "tail" outliers. The original data restores these hard cases.
 
 ### 2. Critical Feature Ratios
 ```python
